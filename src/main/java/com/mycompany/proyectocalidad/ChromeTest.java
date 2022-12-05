@@ -1,4 +1,5 @@
-/*
+
+   /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -7,7 +8,7 @@ package com.mycompany.proyectocalidad;
 import java.time.Duration;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.openqa.selenium.*;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.*;
 
@@ -17,14 +18,12 @@ import org.openqa.selenium.support.ui.*;
  */
 public class ChromeTest {
 
-    public static void main(String[] args) {
-
-    static WebDriver driver;
+    WebDriver driver;
 
     public ChromeTest() {
     }
 
-    public void preuba1() {
+    public void prueba1() {
         System.setProperty("webdriver.chrome.driver",
                 "C:\\Users\\joses\\OneDrive\\Documentos\\Selenium\\chromedriver_win32\\chromedriver.exe");
         System.out.println("Test Initiated");
@@ -50,3 +49,5 @@ public class ChromeTest {
     }
 
 }
+ 
+
