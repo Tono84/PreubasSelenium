@@ -36,18 +36,18 @@ public class Menu {
                 case 1 -> {
                     c.prueba1();
                 }
-                case 2 -> {
-                    c.prueba2();
-                }
-                case 3 -> {
-                    c.prueba3();
-                }
-                case 4 -> {
-                    c.prueba4();
-                }
-                case 5 -> {
-                    System.exit(0);
-                }
+//                case 2 -> {
+//                    c.prueba2();
+//                }
+//                case 3 -> {
+//                    c.prueba3();
+//                }
+//                case 4 -> {
+//                    c.prueba4();
+//                }
+//                case 5 -> {
+//                    System.exit(0);
+//                }
                 default -> {
                     JOptionPane.showMessageDialog(null, "¡Opción incorrecta!");
                 }

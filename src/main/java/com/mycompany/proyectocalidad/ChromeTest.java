@@ -8,7 +8,9 @@ package com.mycompany.proyectocalidad;
 import java.time.Duration;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.*;
 
@@ -41,10 +43,7 @@ public class ChromeTest {
         } catch (InterruptedException ex) {
             Logger.getLogger(ChromeTest.class.getName()).log(Level.SEVERE, null, ex);
         }
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
-        wait.until(ExpectedConditions.elementToBeClickable(
-                By.id("google-recaptcha-domainchecker1"))).click();
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("login"))).click();
+
         //driver.quit();
     }
 
